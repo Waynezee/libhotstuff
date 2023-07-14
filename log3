@@ -1,0 +1,803 @@
+2023-07-14 14:49:43.037710 [net info] loaded configuration from hotstuff.conf
+2023-07-14 14:49:43.037807 [net info] loading extra configuration from ./hotstuff-sec3.conf
+2023-07-14 14:49:43.041762 [net info] starting all threads...
+2023-07-14 14:49:43.042135 [net info] listening to 10003
+2023-07-14 14:49:43.043276 [net info] accepted <Conn fd=39 addr=<NetAddr 127.0.0.1:38728> mode=passive>
+2023-07-14 14:49:43.043377 [net info] accepted <Conn fd=82 addr=<NetAddr 127.0.0.1:38730> mode=passive>
+2023-07-14 14:49:43.043960 [net info] starting all threads...
+2023-07-14 14:49:43.044528 [net info] listening to 20003
+2023-07-14 14:49:43.044627 [hotstuff info] ** starting the system with parameters **
+2023-07-14 14:49:43.044647 [hotstuff info] blk_size = 1
+2023-07-14 14:49:43.044653 [hotstuff info] conns = 0
+2023-07-14 14:49:43.044656 [hotstuff info] ** starting the event loop...
+2023-07-14 14:49:43.046890 [net info] created <Conn fd=91 addr=<NetAddr 127.0.0.1:10000> mode=active>
+2023-07-14 14:49:43.047058 [net info] created <Conn fd=93 addr=<NetAddr 127.0.0.1:10001> mode=active>
+2023-07-14 14:49:43.047213 [net info] created <Conn fd=95 addr=<NetAddr 127.0.0.1:10002> mode=active>
+2023-07-14 14:49:43.047335 [net info] accepted <Conn fd=97 addr=<NetAddr 127.0.0.1:38736> mode=passive>
+2023-07-14 14:49:43.048676 [net info] connected to remote <Conn fd=91 addr=<NetAddr 127.0.0.1:10000> mode=active>
+2023-07-14 14:49:43.048719 [net info] connected to remote <Conn fd=93 addr=<NetAddr 127.0.0.1:10001> mode=active>
+2023-07-14 14:49:43.048731 [net info] connected to remote <Conn fd=95 addr=<NetAddr 127.0.0.1:10002> mode=active>
+2023-07-14 14:49:43.048753 [net info] 6540a0fea6: setup connection <Conn fd=39 addr=<NetAddr 127.0.0.1:38728> mode=passive>
+2023-07-14 14:49:43.050260 [net info] 6540a0fea6: lost connection <Conn fd=39 addr=<NetAddr 127.0.0.1:38728> mode=passive>
+2023-07-14 14:49:43.053160 [net info] 6540a0fea6: setup connection <Conn fd=82 addr=<NetAddr 127.0.0.1:38730> mode=passive>
+2023-07-14 14:49:43.053197 [net info] 6540a0fea6: setup connection <Conn fd=97 addr=<NetAddr 127.0.0.1:38736> mode=passive>
+2023-07-14 14:49:43.053204 [net info] 6540a0fea6: setup connection <Conn fd=95 addr=<NetAddr 127.0.0.1:10002> mode=active>
+2023-07-14 14:49:43.054946 [net info] 6540a0fea6: setup connection <Conn fd=91 addr=<NetAddr 127.0.0.1:10000> mode=active>
+2023-07-14 14:49:43.054982 [net info] 6540a0fea6: setup connection <Conn fd=93 addr=<NetAddr 127.0.0.1:10001> mode=active>
+2023-07-14 14:49:43.055020 [net info] 6540a0fea6: lost connection <Conn fd=82 addr=<NetAddr 127.0.0.1:38730> mode=passive>
+2023-07-14 14:49:43.055126 [net info] 6540a0fea6: lost connection <Conn fd=97 addr=<NetAddr 127.0.0.1:38736> mode=passive>
+2023-07-14 14:49:43.055293 [net info] established 6540a0fea6 <---> 065b010aed (via <Conn fd=95 addr=<NetAddr 127.0.0.1:10002> mode=active>)
+2023-07-14 14:49:43.055310 [net info] 6540a0fea6: ping from <Conn fd=95 addr=<NetAddr 127.0.0.1:10002> mode=active>
+2023-07-14 14:49:43.055658 [net info] 6540a0fea6: lost connection <Conn fd=91 addr=<NetAddr 127.0.0.1:10000> mode=active>
+2023-07-14 14:49:43.056063 [net info] established 6540a0fea6 <---> c261250345 (via <Conn fd=93 addr=<NetAddr 127.0.0.1:10001> mode=active>)
+2023-07-14 14:49:43.056083 [net info] 6540a0fea6: ping from <Conn fd=93 addr=<NetAddr 127.0.0.1:10001> mode=active>
+2023-07-14 14:49:45.256580 [net info] created <Conn fd=39 addr=<NetAddr 127.0.0.1:10000> mode=active>
+2023-07-14 14:49:45.256868 [net info] connected to remote <Conn fd=39 addr=<NetAddr 127.0.0.1:10000> mode=active>
+2023-07-14 14:49:45.259266 [net info] 6540a0fea6: setup connection <Conn fd=39 addr=<NetAddr 127.0.0.1:10000> mode=active>
+2023-07-14 14:49:45.260435 [net info] 6540a0fea6: lost connection <Conn fd=39 addr=<NetAddr 127.0.0.1:10000> mode=active>
+2023-07-14 14:49:45.389931 [net info] accepted <Conn fd=39 addr=<NetAddr 127.0.0.1:38746> mode=passive>
+2023-07-14 14:49:45.393782 [net info] 6540a0fea6: setup connection <Conn fd=39 addr=<NetAddr 127.0.0.1:38746> mode=passive>
+2023-07-14 14:49:45.394043 [net info] established 6540a0fea6 <---> 542865a568 (via <Conn fd=39 addr=<NetAddr 127.0.0.1:38746> mode=passive>)
+2023-07-14 14:49:45.394469 [net info] 6540a0fea6: ping from <Conn fd=39 addr=<NetAddr 127.0.0.1:38746> mode=passive>
+2023-07-14 14:49:47.119811 [net info] accepted <Conn fd=40 addr=<NetAddr 127.0.0.1:47516> mode=passive>
+2023-07-14 14:49:47.272800 [hotstuff info] replicated <fin decision=1 cmd_idx=0 cmd_height=1 cmd=a9e080790c blk=bc03db4398>
+2023-07-14 14:49:47.322929 [hotstuff info] replicated <fin decision=1 cmd_idx=0 cmd_height=2 cmd=a2932c25b2 blk=e52a32b0fa>
+2023-07-14 14:49:47.373153 [hotstuff info] replicated <fin decision=1 cmd_idx=0 cmd_height=3 cmd=3573646fd9 blk=74200da362>
+2023-07-14 14:49:47.423553 [hotstuff info] replicated <fin decision=1 cmd_idx=0 cmd_height=4 cmd=ae9169d336 blk=e9c08c41f8>
+2023-07-14 14:49:47.473488 [hotstuff info] replicated <fin decision=1 cmd_idx=0 cmd_height=5 cmd=21943e6b52 blk=32ee1da96b>
+2023-07-14 14:49:47.524246 [hotstuff info] replicated <fin decision=1 cmd_idx=0 cmd_height=6 cmd=9dd5b0594e blk=4de2a11e5b>
+2023-07-14 14:49:47.574424 [hotstuff info] replicated <fin decision=1 cmd_idx=0 cmd_height=7 cmd=89e162b001 blk=4e84ca68ca>
+2023-07-14 14:49:47.624818 [hotstuff info] replicated <fin decision=1 cmd_idx=0 cmd_height=8 cmd=d3b5b906ff blk=b4d739f8e0>
+2023-07-14 14:49:47.675157 [hotstuff info] replicated <fin decision=1 cmd_idx=0 cmd_height=9 cmd=83670d33b6 blk=c4fbe839b1>
+2023-07-14 14:49:47.725331 [hotstuff info] replicated <fin decision=1 cmd_idx=0 cmd_height=10 cmd=b92df0ed3c blk=be9953315c>
+2023-07-14 14:49:47.775449 [hotstuff info] replicated <fin decision=1 cmd_idx=0 cmd_height=11 cmd=2b4895d26e blk=44ceb26181>
+2023-07-14 14:49:47.826017 [hotstuff info] replicated <fin decision=1 cmd_idx=0 cmd_height=12 cmd=d582a8ae0c blk=384249ac80>
+2023-07-14 14:49:47.876335 [hotstuff info] replicated <fin decision=1 cmd_idx=0 cmd_height=13 cmd=491eb6fab2 blk=b8754fa30c>
+2023-07-14 14:49:47.926813 [hotstuff info] replicated <fin decision=1 cmd_idx=0 cmd_height=14 cmd=b261631716 blk=a365ca3d19>
+2023-07-14 14:49:47.976848 [hotstuff info] replicated <fin decision=1 cmd_idx=0 cmd_height=15 cmd=364de80e92 blk=00744ab541>
+2023-07-14 14:49:48.027281 [hotstuff info] replicated <fin decision=1 cmd_idx=0 cmd_height=16 cmd=f44072a281 blk=e2c1720a3e>
+2023-07-14 14:49:48.077633 [hotstuff info] replicated <fin decision=1 cmd_idx=0 cmd_height=17 cmd=658c67939f blk=351b0c7e2f>
+2023-07-14 14:49:48.127465 [hotstuff info] replicated <fin decision=1 cmd_idx=0 cmd_height=18 cmd=db9b29792b blk=dd8ee293a0>
+2023-07-14 14:49:48.177728 [hotstuff info] replicated <fin decision=1 cmd_idx=0 cmd_height=19 cmd=406811d384 blk=d94ac86b3a>
+2023-07-14 14:49:48.227961 [hotstuff info] replicated <fin decision=1 cmd_idx=0 cmd_height=20 cmd=77244f8b86 blk=8bfb205fd8>
+2023-07-14 14:49:48.278439 [hotstuff info] replicated <fin decision=1 cmd_idx=0 cmd_height=21 cmd=fd27fe8389 blk=7907770f9b>
+2023-07-14 14:49:48.328680 [hotstuff info] replicated <fin decision=1 cmd_idx=0 cmd_height=22 cmd=e9d2f55f0a blk=dd9d8896b8>
+2023-07-14 14:49:48.378943 [hotstuff info] replicated <fin decision=1 cmd_idx=0 cmd_height=23 cmd=7eba07af2f blk=8bfd3d4bcd>
+2023-07-14 14:49:48.429185 [hotstuff info] replicated <fin decision=1 cmd_idx=0 cmd_height=24 cmd=58fa40fdee blk=5baa03b2a2>
+2023-07-14 14:49:48.479984 [hotstuff info] replicated <fin decision=1 cmd_idx=0 cmd_height=25 cmd=1d7dc84ba3 blk=20ccb11027>
+2023-07-14 14:49:48.530120 [hotstuff info] replicated <fin decision=1 cmd_idx=0 cmd_height=26 cmd=db779d6a93 blk=8ff2b1f727>
+2023-07-14 14:49:48.579979 [hotstuff info] replicated <fin decision=1 cmd_idx=0 cmd_height=27 cmd=c8071b19d2 blk=436c25cde5>
+2023-07-14 14:49:48.630604 [hotstuff info] replicated <fin decision=1 cmd_idx=0 cmd_height=28 cmd=923d5f248c blk=73d5a8019e>
+2023-07-14 14:49:48.681024 [hotstuff info] replicated <fin decision=1 cmd_idx=0 cmd_height=29 cmd=91465f9b6d blk=6c781f304d>
+2023-07-14 14:49:48.731289 [hotstuff info] replicated <fin decision=1 cmd_idx=0 cmd_height=30 cmd=2f2c8ce368 blk=c66865e014>
+2023-07-14 14:49:48.781235 [hotstuff info] replicated <fin decision=1 cmd_idx=0 cmd_height=31 cmd=411692568e blk=0d926b5f02>
+2023-07-14 14:49:48.831931 [hotstuff info] replicated <fin decision=1 cmd_idx=0 cmd_height=32 cmd=81093750a1 blk=a46ed8b146>
+2023-07-14 14:49:48.881950 [hotstuff info] replicated <fin decision=1 cmd_idx=0 cmd_height=33 cmd=adc1a9ec03 blk=8c577fc69e>
+2023-07-14 14:49:48.932050 [hotstuff info] replicated <fin decision=1 cmd_idx=0 cmd_height=34 cmd=044218aee9 blk=604ae76a5d>
+2023-07-14 14:49:48.982168 [hotstuff info] replicated <fin decision=1 cmd_idx=0 cmd_height=35 cmd=bef4612265 blk=7cef4e05eb>
+2023-07-14 14:49:49.032513 [hotstuff info] replicated <fin decision=1 cmd_idx=0 cmd_height=36 cmd=18ad59571c blk=cf772655d4>
+2023-07-14 14:49:49.082700 [hotstuff info] replicated <fin decision=1 cmd_idx=0 cmd_height=37 cmd=2ea772db5c blk=531aa556f9>
+2023-07-14 14:49:49.132853 [hotstuff info] replicated <fin decision=1 cmd_idx=0 cmd_height=38 cmd=fe1eec2815 blk=791ddf7331>
+2023-07-14 14:49:49.183304 [hotstuff info] replicated <fin decision=1 cmd_idx=0 cmd_height=39 cmd=1251bb6279 blk=2fc2d86170>
+2023-07-14 14:49:49.233291 [hotstuff info] replicated <fin decision=1 cmd_idx=0 cmd_height=40 cmd=650f18f9d9 blk=970e2e9053>
+2023-07-14 14:49:49.283631 [hotstuff info] replicated <fin decision=1 cmd_idx=0 cmd_height=41 cmd=29f8d534df blk=06b908f3be>
+2023-07-14 14:49:49.333999 [hotstuff info] replicated <fin decision=1 cmd_idx=0 cmd_height=42 cmd=283a0860f4 blk=333c28c2cc>
+2023-07-14 14:49:49.384071 [hotstuff info] replicated <fin decision=1 cmd_idx=0 cmd_height=43 cmd=419123e01e blk=eb731df2a2>
+2023-07-14 14:49:49.434251 [hotstuff info] replicated <fin decision=1 cmd_idx=0 cmd_height=44 cmd=2acbb8b808 blk=77b0b0f7bc>
+2023-07-14 14:49:49.484539 [hotstuff info] replicated <fin decision=1 cmd_idx=0 cmd_height=45 cmd=92c811d28c blk=517f83631c>
+2023-07-14 14:49:49.534861 [hotstuff info] replicated <fin decision=1 cmd_idx=0 cmd_height=46 cmd=2c10204395 blk=9374f34a2f>
+2023-07-14 14:49:49.584876 [hotstuff info] replicated <fin decision=1 cmd_idx=0 cmd_height=47 cmd=b4c60cf8c9 blk=e845a4ce63>
+2023-07-14 14:49:49.635301 [hotstuff info] replicated <fin decision=1 cmd_idx=0 cmd_height=48 cmd=ad29d55325 blk=f24aa069c0>
+2023-07-14 14:49:49.685764 [hotstuff info] replicated <fin decision=1 cmd_idx=0 cmd_height=49 cmd=9eb7fda2a0 blk=289f416f86>
+2023-07-14 14:49:49.735812 [hotstuff info] replicated <fin decision=1 cmd_idx=0 cmd_height=50 cmd=b83bec5e11 blk=38e56ed7f7>
+2023-07-14 14:49:49.786048 [hotstuff info] replicated <fin decision=1 cmd_idx=0 cmd_height=51 cmd=26f8b66aba blk=a6f5bb72f3>
+2023-07-14 14:49:49.836328 [hotstuff info] replicated <fin decision=1 cmd_idx=0 cmd_height=52 cmd=9fc55f074f blk=cc6d4942f6>
+2023-07-14 14:49:49.886549 [hotstuff info] replicated <fin decision=1 cmd_idx=0 cmd_height=53 cmd=e30630a63c blk=bf69b4c1af>
+2023-07-14 14:49:49.936970 [hotstuff info] replicated <fin decision=1 cmd_idx=0 cmd_height=54 cmd=1cb91d6db4 blk=424554b9d7>
+2023-07-14 14:49:49.987074 [hotstuff info] replicated <fin decision=1 cmd_idx=0 cmd_height=55 cmd=1741e1dbca blk=22381b8417>
+2023-07-14 14:49:50.037356 [hotstuff info] replicated <fin decision=1 cmd_idx=0 cmd_height=56 cmd=147be4cb6d blk=fd4018dbbd>
+2023-07-14 14:49:50.087579 [hotstuff info] replicated <fin decision=1 cmd_idx=0 cmd_height=57 cmd=77467c0f47 blk=65e538c820>
+2023-07-14 14:49:50.137791 [hotstuff info] replicated <fin decision=1 cmd_idx=0 cmd_height=58 cmd=adae8aac68 blk=82742bd387>
+2023-07-14 14:49:50.188004 [hotstuff info] replicated <fin decision=1 cmd_idx=0 cmd_height=59 cmd=2f8097f20a blk=d653893f80>
+2023-07-14 14:49:50.238129 [hotstuff info] replicated <fin decision=1 cmd_idx=0 cmd_height=60 cmd=15b5bedd75 blk=eca899394e>
+2023-07-14 14:49:50.288468 [hotstuff info] replicated <fin decision=1 cmd_idx=0 cmd_height=61 cmd=7fdc5f6db9 blk=ef655d2567>
+2023-07-14 14:49:50.338894 [hotstuff info] replicated <fin decision=1 cmd_idx=0 cmd_height=62 cmd=3b9fc008fc blk=d6ba8b1162>
+2023-07-14 14:49:50.389054 [hotstuff info] replicated <fin decision=1 cmd_idx=0 cmd_height=63 cmd=9d9e71a3bf blk=bb1eddec02>
+2023-07-14 14:49:50.439373 [hotstuff info] replicated <fin decision=1 cmd_idx=0 cmd_height=64 cmd=d96365cb20 blk=43bfa3db7c>
+2023-07-14 14:49:50.489554 [hotstuff info] replicated <fin decision=1 cmd_idx=0 cmd_height=65 cmd=c15e101903 blk=59db0325c3>
+2023-07-14 14:49:50.539667 [hotstuff info] replicated <fin decision=1 cmd_idx=0 cmd_height=66 cmd=d1356ab945 blk=5433e510e1>
+2023-07-14 14:49:50.590696 [hotstuff info] replicated <fin decision=1 cmd_idx=0 cmd_height=67 cmd=50a065ee0b blk=9f375cfbad>
+2023-07-14 14:49:50.640847 [hotstuff info] replicated <fin decision=1 cmd_idx=0 cmd_height=68 cmd=eadea49d11 blk=517271d565>
+2023-07-14 14:49:50.691056 [hotstuff info] replicated <fin decision=1 cmd_idx=0 cmd_height=69 cmd=7d7c60ace0 blk=42e815c099>
+2023-07-14 14:49:50.741362 [hotstuff info] replicated <fin decision=1 cmd_idx=0 cmd_height=70 cmd=3b42365bca blk=e198507b26>
+2023-07-14 14:49:50.791869 [hotstuff info] replicated <fin decision=1 cmd_idx=0 cmd_height=71 cmd=41983a522d blk=4f063117ea>
+2023-07-14 14:49:50.841957 [hotstuff info] replicated <fin decision=1 cmd_idx=0 cmd_height=72 cmd=8a0e967efd blk=d021f93cfa>
+2023-07-14 14:49:50.892540 [hotstuff info] replicated <fin decision=1 cmd_idx=0 cmd_height=73 cmd=3df5574957 blk=2df81a4279>
+2023-07-14 14:49:50.942615 [hotstuff info] replicated <fin decision=1 cmd_idx=0 cmd_height=74 cmd=a4f7fc68d1 blk=10ea56dfe8>
+2023-07-14 14:49:50.993007 [hotstuff info] replicated <fin decision=1 cmd_idx=0 cmd_height=75 cmd=ac8b4e0294 blk=50be99d333>
+2023-07-14 14:49:51.043421 [hotstuff info] replicated <fin decision=1 cmd_idx=0 cmd_height=76 cmd=c5990026b3 blk=16501b0e18>
+2023-07-14 14:49:51.093555 [hotstuff info] replicated <fin decision=1 cmd_idx=0 cmd_height=77 cmd=aa178afc67 blk=3b40877870>
+2023-07-14 14:49:51.143497 [hotstuff info] replicated <fin decision=1 cmd_idx=0 cmd_height=78 cmd=a50bcf3a03 blk=4a4d583746>
+2023-07-14 14:49:51.194035 [hotstuff info] replicated <fin decision=1 cmd_idx=0 cmd_height=79 cmd=fa3e19325b blk=cfd9d796cf>
+2023-07-14 14:49:51.244175 [hotstuff info] replicated <fin decision=1 cmd_idx=0 cmd_height=80 cmd=2edd7f0d69 blk=6a24e48fc7>
+2023-07-14 14:49:51.294532 [hotstuff info] replicated <fin decision=1 cmd_idx=0 cmd_height=81 cmd=b89a7a4195 blk=bab30706b8>
+2023-07-14 14:49:51.345205 [hotstuff info] replicated <fin decision=1 cmd_idx=0 cmd_height=82 cmd=7b0c26c537 blk=e00b78796a>
+2023-07-14 14:49:51.395021 [hotstuff info] replicated <fin decision=1 cmd_idx=0 cmd_height=83 cmd=c1dae7c07f blk=1a275d36b9>
+2023-07-14 14:49:51.445416 [hotstuff info] replicated <fin decision=1 cmd_idx=0 cmd_height=84 cmd=312b607bf5 blk=2f6331ec5e>
+2023-07-14 14:49:51.495913 [hotstuff info] replicated <fin decision=1 cmd_idx=0 cmd_height=85 cmd=665bfcddd0 blk=6246d3fa7f>
+2023-07-14 14:49:51.546375 [hotstuff info] replicated <fin decision=1 cmd_idx=0 cmd_height=86 cmd=3cfbcd2c8b blk=39ff6a796e>
+2023-07-14 14:49:51.596530 [hotstuff info] replicated <fin decision=1 cmd_idx=0 cmd_height=87 cmd=47783ee643 blk=e4ffb94cd1>
+2023-07-14 14:49:51.646669 [hotstuff info] replicated <fin decision=1 cmd_idx=0 cmd_height=88 cmd=df068a80bc blk=a1c7209e4c>
+2023-07-14 14:49:51.696988 [hotstuff info] replicated <fin decision=1 cmd_idx=0 cmd_height=89 cmd=ce503b9d18 blk=d71cb9eb05>
+2023-07-14 14:49:51.747534 [hotstuff info] replicated <fin decision=1 cmd_idx=0 cmd_height=90 cmd=79972b7497 blk=3a24fe57ad>
+2023-07-14 14:49:51.797443 [hotstuff info] replicated <fin decision=1 cmd_idx=0 cmd_height=91 cmd=bbc74b88d0 blk=fdfc1d7afb>
+2023-07-14 14:49:51.847643 [hotstuff info] replicated <fin decision=1 cmd_idx=0 cmd_height=92 cmd=b034c0884c blk=d5382ab53a>
+2023-07-14 14:49:51.898307 [hotstuff info] replicated <fin decision=1 cmd_idx=0 cmd_height=93 cmd=b5e8de8540 blk=a9e634bee4>
+2023-07-14 14:49:51.948350 [hotstuff info] replicated <fin decision=1 cmd_idx=0 cmd_height=94 cmd=c6238cec2d blk=6b03ef7b10>
+2023-07-14 14:49:51.998642 [hotstuff info] replicated <fin decision=1 cmd_idx=0 cmd_height=95 cmd=2a087594e4 blk=a2edd538fc>
+2023-07-14 14:49:52.048752 [hotstuff info] replicated <fin decision=1 cmd_idx=0 cmd_height=96 cmd=03ec0adf62 blk=55bbc05b91>
+2023-07-14 14:49:52.099146 [hotstuff info] replicated <fin decision=1 cmd_idx=0 cmd_height=97 cmd=97d6b6f3e3 blk=0db8bcb796>
+2023-07-14 14:49:53.039364 [hotstuff info] ===== begin stats =====
+2023-07-14 14:49:53.039408 [hotstuff info] -------- queues -------
+2023-07-14 14:49:53.039418 [hotstuff info] blk_fetch_waiting: 0
+2023-07-14 14:49:53.039422 [hotstuff info] blk_delivery_waiting: 0
+2023-07-14 14:49:53.039425 [hotstuff info] decision_waiting: 3
+2023-07-14 14:49:53.039428 [hotstuff info] -------- misc ---------
+2023-07-14 14:49:53.039432 [hotstuff info] fetched: 0
+2023-07-14 14:49:53.039435 [hotstuff info] delivered: 100
+2023-07-14 14:49:53.039438 [hotstuff info] cmd_cache: 0
+2023-07-14 14:49:53.039441 [hotstuff info] blk_cache: 101
+2023-07-14 14:49:53.039445 [hotstuff info] ------ misc (10s) -----
+2023-07-14 14:49:53.039448 [hotstuff info] fetched: 0
+2023-07-14 14:49:53.039451 [hotstuff info] delivered: 100
+2023-07-14 14:49:53.039454 [hotstuff info] decided: 97
+2023-07-14 14:49:53.039457 [hotstuff info] gened: 0
+2023-07-14 14:49:53.039460 [hotstuff info] avg. parent_size: 1.000
+2023-07-14 14:49:53.039465 [hotstuff info] delivery time: 0.000 avg, 0.000 min, 0.001 max
+2023-07-14 14:49:53.039470 [hotstuff info] --- replica msg. (10s) ---
+2023-07-14 14:49:53.039551 [hotstuff info] 542865a568: 103(13013), 103(31221), 0
+2023-07-14 14:49:53.039630 [hotstuff info] c261250345: 3(13), 3(13), 0
+2023-07-14 14:49:53.039709 [hotstuff info] 065b010aed: 3(13), 3(13), 0
+2023-07-14 14:49:53.039737 [hotstuff info] sent: 109
+2023-07-14 14:49:53.039744 [hotstuff info] recv: 109
+2023-07-14 14:49:53.039748 [hotstuff info] --- replica msg. total ---
+2023-07-14 14:49:53.039751 [hotstuff info] sent: 109
+2023-07-14 14:49:53.039754 [hotstuff info] recv: 109
+2023-07-14 14:49:53.039757 [hotstuff info] ====== end stats ======
+2023-07-14 14:49:53.039760 [hotstuff info] --- client msg. (10s) ---
+2023-07-14 14:49:53.039766 [hotstuff info] <NetAddr 127.0.0.1:47516>: 97(7275), 100(100800)
+2023-07-14 14:49:53.039770 [hotstuff info] --- end client msg. ---
+2023-07-14 14:50:03.049822 [hotstuff info] ===== begin stats =====
+2023-07-14 14:50:03.049863 [hotstuff info] -------- queues -------
+2023-07-14 14:50:03.049870 [hotstuff info] blk_fetch_waiting: 0
+2023-07-14 14:50:03.049874 [hotstuff info] blk_delivery_waiting: 0
+2023-07-14 14:50:03.049877 [hotstuff info] decision_waiting: 3
+2023-07-14 14:50:03.049881 [hotstuff info] -------- misc ---------
+2023-07-14 14:50:03.049884 [hotstuff info] fetched: 0
+2023-07-14 14:50:03.049887 [hotstuff info] delivered: 100
+2023-07-14 14:50:03.049890 [hotstuff info] cmd_cache: 0
+2023-07-14 14:50:03.049893 [hotstuff info] blk_cache: 101
+2023-07-14 14:50:03.049897 [hotstuff info] ------ misc (10s) -----
+2023-07-14 14:50:03.049899 [hotstuff info] fetched: 0
+2023-07-14 14:50:03.049903 [hotstuff info] delivered: 0
+2023-07-14 14:50:03.049906 [hotstuff info] decided: 0
+2023-07-14 14:50:03.049909 [hotstuff info] gened: 0
+2023-07-14 14:50:03.049912 [hotstuff info] avg. parent_size: 0.000
+2023-07-14 14:50:03.049917 [hotstuff info] delivery time: 0.000 avg, 0.000 min, 0.000 max
+2023-07-14 14:50:03.049921 [hotstuff info] --- replica msg. (10s) ---
+2023-07-14 14:50:03.050028 [hotstuff info] 542865a568: 0(0), 0(0), 0
+2023-07-14 14:50:03.050118 [hotstuff info] c261250345: 0(0), 0(0), 0
+2023-07-14 14:50:03.050243 [hotstuff info] 065b010aed: 0(0), 0(0), 0
+2023-07-14 14:50:03.050330 [hotstuff info] sent: 0
+2023-07-14 14:50:03.050343 [hotstuff info] recv: 0
+2023-07-14 14:50:03.050347 [hotstuff info] --- replica msg. total ---
+2023-07-14 14:50:03.050350 [hotstuff info] sent: 109
+2023-07-14 14:50:03.050353 [hotstuff info] recv: 109
+2023-07-14 14:50:03.050356 [hotstuff info] ====== end stats ======
+2023-07-14 14:50:03.050360 [hotstuff info] --- client msg. (10s) ---
+2023-07-14 14:50:03.050363 [hotstuff info] --- end client msg. ---
+2023-07-14 14:50:03.099480 [hotstuff info] schedule to impeach the proposer
+2023-07-14 14:50:04.105227 [hotstuff info] replicated <fin decision=1 cmd_idx=0 cmd_height=98 cmd=fb8e99c724 blk=4b7f30bb08>
+2023-07-14 14:50:04.105277 [hotstuff info] replicated <fin decision=1 cmd_idx=0 cmd_height=99 cmd=4285e36b3f blk=d4b04e3e28>
+2023-07-14 14:50:04.105287 [hotstuff info] replicated <fin decision=1 cmd_idx=0 cmd_height=100 cmd=b64aa966a1 blk=4849c124e1>
+2023-07-14 14:50:04.105334 [hotstuff warn] unable to send to the client: client does not exist
+2023-07-14 14:50:04.105364 [hotstuff warn] unable to send to the client: client does not exist
+2023-07-14 14:50:04.105371 [hotstuff warn] unable to send to the client: client does not exist
+2023-07-14 14:50:13.059361 [hotstuff info] ===== begin stats =====
+2023-07-14 14:50:13.059392 [hotstuff info] -------- queues -------
+2023-07-14 14:50:13.059397 [hotstuff info] blk_fetch_waiting: 0
+2023-07-14 14:50:13.059400 [hotstuff info] blk_delivery_waiting: 0
+2023-07-14 14:50:13.059403 [hotstuff info] decision_waiting: 0
+2023-07-14 14:50:13.059405 [hotstuff info] -------- misc ---------
+2023-07-14 14:50:13.059407 [hotstuff info] fetched: 0
+2023-07-14 14:50:13.059409 [hotstuff info] delivered: 104
+2023-07-14 14:50:13.059411 [hotstuff info] cmd_cache: 0
+2023-07-14 14:50:13.059413 [hotstuff info] blk_cache: 105
+2023-07-14 14:50:13.059416 [hotstuff info] ------ misc (10s) -----
+2023-07-14 14:50:13.059418 [hotstuff info] fetched: 0
+2023-07-14 14:50:13.059420 [hotstuff info] delivered: 4
+2023-07-14 14:50:13.059422 [hotstuff info] decided: 3
+2023-07-14 14:50:13.059424 [hotstuff info] gened: 0
+2023-07-14 14:50:13.059426 [hotstuff info] avg. parent_size: 1.000
+2023-07-14 14:50:13.059429 [hotstuff info] delivery time: 0.000 avg, 0.000 min, 0.000 max
+2023-07-14 14:50:13.059432 [hotstuff info] --- replica msg. (10s) ---
+2023-07-14 14:50:13.059522 [hotstuff info] 542865a568: 0(0), 0(0), 0
+2023-07-14 14:50:13.059583 [hotstuff info] c261250345: 4(520), 4(1128), 0
+2023-07-14 14:50:13.059680 [hotstuff info] 065b010aed: 0(0), 0(0), 0
+2023-07-14 14:50:13.059716 [hotstuff info] sent: 4
+2023-07-14 14:50:13.059724 [hotstuff info] recv: 4
+2023-07-14 14:50:13.059727 [hotstuff info] --- replica msg. total ---
+2023-07-14 14:50:13.059731 [hotstuff info] sent: 113
+2023-07-14 14:50:13.059734 [hotstuff info] recv: 113
+2023-07-14 14:50:13.059737 [hotstuff info] ====== end stats ======
+2023-07-14 14:50:13.059740 [hotstuff info] --- client msg. (10s) ---
+2023-07-14 14:50:13.059744 [hotstuff info] --- end client msg. ---
+2023-07-14 14:50:17.222491 [net info] 6540a0fea6: ping from <Conn fd=95 addr=<NetAddr 127.0.0.1:10002> mode=active>
+2023-07-14 14:50:17.223350 [net info] 6540a0fea6: ping from <Conn fd=93 addr=<NetAddr 127.0.0.1:10001> mode=active>
+2023-07-14 14:50:22.558875 [net info] 6540a0fea6: ping from <Conn fd=39 addr=<NetAddr 127.0.0.1:38746> mode=passive>
+2023-07-14 14:50:23.060652 [hotstuff info] ===== begin stats =====
+2023-07-14 14:50:23.060754 [hotstuff info] -------- queues -------
+2023-07-14 14:50:23.060759 [hotstuff info] blk_fetch_waiting: 0
+2023-07-14 14:50:23.060763 [hotstuff info] blk_delivery_waiting: 0
+2023-07-14 14:50:23.060765 [hotstuff info] decision_waiting: 0
+2023-07-14 14:50:23.060768 [hotstuff info] -------- misc ---------
+2023-07-14 14:50:23.060771 [hotstuff info] fetched: 0
+2023-07-14 14:50:23.060773 [hotstuff info] delivered: 104
+2023-07-14 14:50:23.060776 [hotstuff info] cmd_cache: 0
+2023-07-14 14:50:23.060778 [hotstuff info] blk_cache: 105
+2023-07-14 14:50:23.060780 [hotstuff info] ------ misc (10s) -----
+2023-07-14 14:50:23.060783 [hotstuff info] fetched: 0
+2023-07-14 14:50:23.060785 [hotstuff info] delivered: 0
+2023-07-14 14:50:23.060787 [hotstuff info] decided: 0
+2023-07-14 14:50:23.060790 [hotstuff info] gened: 0
+2023-07-14 14:50:23.060792 [hotstuff info] avg. parent_size: 0.000
+2023-07-14 14:50:23.060797 [hotstuff info] delivery time: 0.000 avg, 0.000 min, 0.000 max
+2023-07-14 14:50:23.060801 [hotstuff info] --- replica msg. (10s) ---
+2023-07-14 14:50:23.060958 [hotstuff info] 542865a568: 2(2), 2(2), 0
+2023-07-14 14:50:23.061081 [hotstuff info] c261250345: 1(1), 1(1), 0
+2023-07-14 14:50:23.061234 [hotstuff info] 065b010aed: 1(1), 1(1), 0
+2023-07-14 14:50:23.061274 [hotstuff info] sent: 4
+2023-07-14 14:50:23.061289 [hotstuff info] recv: 4
+2023-07-14 14:50:23.061292 [hotstuff info] --- replica msg. total ---
+2023-07-14 14:50:23.061294 [hotstuff info] sent: 117
+2023-07-14 14:50:23.061297 [hotstuff info] recv: 117
+2023-07-14 14:50:23.061299 [hotstuff info] ====== end stats ======
+2023-07-14 14:50:23.061301 [hotstuff info] --- client msg. (10s) ---
+2023-07-14 14:50:23.061304 [hotstuff info] --- end client msg. ---
+2023-07-14 14:50:33.067687 [hotstuff info] ===== begin stats =====
+2023-07-14 14:50:33.067718 [hotstuff info] -------- queues -------
+2023-07-14 14:50:33.067724 [hotstuff info] blk_fetch_waiting: 0
+2023-07-14 14:50:33.067728 [hotstuff info] blk_delivery_waiting: 0
+2023-07-14 14:50:33.067732 [hotstuff info] decision_waiting: 0
+2023-07-14 14:50:33.067735 [hotstuff info] -------- misc ---------
+2023-07-14 14:50:33.067738 [hotstuff info] fetched: 0
+2023-07-14 14:50:33.067741 [hotstuff info] delivered: 104
+2023-07-14 14:50:33.067744 [hotstuff info] cmd_cache: 0
+2023-07-14 14:50:33.067748 [hotstuff info] blk_cache: 105
+2023-07-14 14:50:33.067751 [hotstuff info] ------ misc (10s) -----
+2023-07-14 14:50:33.067754 [hotstuff info] fetched: 0
+2023-07-14 14:50:33.067757 [hotstuff info] delivered: 0
+2023-07-14 14:50:33.067760 [hotstuff info] decided: 0
+2023-07-14 14:50:33.067763 [hotstuff info] gened: 0
+2023-07-14 14:50:33.067767 [hotstuff info] avg. parent_size: 0.000
+2023-07-14 14:50:33.067771 [hotstuff info] delivery time: 0.000 avg, 0.000 min, 0.000 max
+2023-07-14 14:50:33.067776 [hotstuff info] --- replica msg. (10s) ---
+2023-07-14 14:50:33.067911 [hotstuff info] 542865a568: 0(0), 0(0), 0
+2023-07-14 14:50:33.068023 [hotstuff info] c261250345: 1(1), 1(1), 0
+2023-07-14 14:50:33.068111 [hotstuff info] 065b010aed: 1(1), 1(1), 0
+2023-07-14 14:50:33.068138 [hotstuff info] sent: 2
+2023-07-14 14:50:33.068145 [hotstuff info] recv: 2
+2023-07-14 14:50:33.068149 [hotstuff info] --- replica msg. total ---
+2023-07-14 14:50:33.068152 [hotstuff info] sent: 119
+2023-07-14 14:50:33.068156 [hotstuff info] recv: 119
+2023-07-14 14:50:33.068159 [hotstuff info] ====== end stats ======
+2023-07-14 14:50:33.068162 [hotstuff info] --- client msg. (10s) ---
+2023-07-14 14:50:33.068165 [hotstuff info] --- end client msg. ---
+2023-07-14 14:50:43.074261 [hotstuff info] ===== begin stats =====
+2023-07-14 14:50:43.074294 [hotstuff info] -------- queues -------
+2023-07-14 14:50:43.074300 [hotstuff info] blk_fetch_waiting: 0
+2023-07-14 14:50:43.074303 [hotstuff info] blk_delivery_waiting: 0
+2023-07-14 14:50:43.074305 [hotstuff info] decision_waiting: 0
+2023-07-14 14:50:43.074307 [hotstuff info] -------- misc ---------
+2023-07-14 14:50:43.074309 [hotstuff info] fetched: 0
+2023-07-14 14:50:43.074312 [hotstuff info] delivered: 104
+2023-07-14 14:50:43.074317 [hotstuff info] cmd_cache: 0
+2023-07-14 14:50:43.074321 [hotstuff info] blk_cache: 105
+2023-07-14 14:50:43.074325 [hotstuff info] ------ misc (10s) -----
+2023-07-14 14:50:43.074328 [hotstuff info] fetched: 0
+2023-07-14 14:50:43.074331 [hotstuff info] delivered: 0
+2023-07-14 14:50:43.074334 [hotstuff info] decided: 0
+2023-07-14 14:50:43.074338 [hotstuff info] gened: 0
+2023-07-14 14:50:43.074341 [hotstuff info] avg. parent_size: 0.000
+2023-07-14 14:50:43.074345 [hotstuff info] delivery time: 0.000 avg, 0.000 min, 0.000 max
+2023-07-14 14:50:43.074348 [hotstuff info] --- replica msg. (10s) ---
+2023-07-14 14:50:43.074419 [hotstuff info] 542865a568: 0(0), 0(0), 0
+2023-07-14 14:50:43.074486 [hotstuff info] c261250345: 0(0), 0(0), 0
+2023-07-14 14:50:43.074555 [hotstuff info] 065b010aed: 0(0), 0(0), 0
+2023-07-14 14:50:43.074583 [hotstuff info] sent: 0
+2023-07-14 14:50:43.074590 [hotstuff info] recv: 0
+2023-07-14 14:50:43.074593 [hotstuff info] --- replica msg. total ---
+2023-07-14 14:50:43.074597 [hotstuff info] sent: 119
+2023-07-14 14:50:43.074600 [hotstuff info] recv: 119
+2023-07-14 14:50:43.074603 [hotstuff info] ====== end stats ======
+2023-07-14 14:50:43.074606 [hotstuff info] --- client msg. (10s) ---
+2023-07-14 14:50:43.074610 [hotstuff info] --- end client msg. ---
+2023-07-14 14:50:53.079300 [hotstuff info] ===== begin stats =====
+2023-07-14 14:50:53.079334 [hotstuff info] -------- queues -------
+2023-07-14 14:50:53.079338 [hotstuff info] blk_fetch_waiting: 0
+2023-07-14 14:50:53.079341 [hotstuff info] blk_delivery_waiting: 0
+2023-07-14 14:50:53.079343 [hotstuff info] decision_waiting: 0
+2023-07-14 14:50:53.079345 [hotstuff info] -------- misc ---------
+2023-07-14 14:50:53.079347 [hotstuff info] fetched: 0
+2023-07-14 14:50:53.079349 [hotstuff info] delivered: 104
+2023-07-14 14:50:53.079352 [hotstuff info] cmd_cache: 0
+2023-07-14 14:50:53.079354 [hotstuff info] blk_cache: 105
+2023-07-14 14:50:53.079356 [hotstuff info] ------ misc (10s) -----
+2023-07-14 14:50:53.079358 [hotstuff info] fetched: 0
+2023-07-14 14:50:53.079360 [hotstuff info] delivered: 0
+2023-07-14 14:50:53.079362 [hotstuff info] decided: 0
+2023-07-14 14:50:53.079364 [hotstuff info] gened: 0
+2023-07-14 14:50:53.079366 [hotstuff info] avg. parent_size: 0.000
+2023-07-14 14:50:53.079370 [hotstuff info] delivery time: 0.000 avg, 0.000 min, 0.000 max
+2023-07-14 14:50:53.079375 [hotstuff info] --- replica msg. (10s) ---
+2023-07-14 14:50:53.079460 [hotstuff info] 542865a568: 0(0), 0(0), 0
+2023-07-14 14:50:53.079527 [hotstuff info] c261250345: 0(0), 0(0), 0
+2023-07-14 14:50:53.079607 [hotstuff info] 065b010aed: 0(0), 0(0), 0
+2023-07-14 14:50:53.079630 [hotstuff info] sent: 0
+2023-07-14 14:50:53.079635 [hotstuff info] recv: 0
+2023-07-14 14:50:53.079637 [hotstuff info] --- replica msg. total ---
+2023-07-14 14:50:53.079639 [hotstuff info] sent: 119
+2023-07-14 14:50:53.079641 [hotstuff info] recv: 119
+2023-07-14 14:50:53.079643 [hotstuff info] ====== end stats ======
+2023-07-14 14:50:53.079645 [hotstuff info] --- client msg. (10s) ---
+2023-07-14 14:50:53.079647 [hotstuff info] --- end client msg. ---
+2023-07-14 14:50:54.926646 [net info] 6540a0fea6: ping from <Conn fd=93 addr=<NetAddr 127.0.0.1:10001> mode=active>
+2023-07-14 14:50:55.531978 [net info] 6540a0fea6: ping from <Conn fd=95 addr=<NetAddr 127.0.0.1:10002> mode=active>
+2023-07-14 14:50:58.033226 [net info] 6540a0fea6: ping from <Conn fd=39 addr=<NetAddr 127.0.0.1:38746> mode=passive>
+2023-07-14 14:51:03.079829 [hotstuff info] ===== begin stats =====
+2023-07-14 14:51:03.079879 [hotstuff info] -------- queues -------
+2023-07-14 14:51:03.079886 [hotstuff info] blk_fetch_waiting: 0
+2023-07-14 14:51:03.079891 [hotstuff info] blk_delivery_waiting: 0
+2023-07-14 14:51:03.079894 [hotstuff info] decision_waiting: 0
+2023-07-14 14:51:03.079897 [hotstuff info] -------- misc ---------
+2023-07-14 14:51:03.079900 [hotstuff info] fetched: 0
+2023-07-14 14:51:03.079903 [hotstuff info] delivered: 104
+2023-07-14 14:51:03.079906 [hotstuff info] cmd_cache: 0
+2023-07-14 14:51:03.079909 [hotstuff info] blk_cache: 105
+2023-07-14 14:51:03.079912 [hotstuff info] ------ misc (10s) -----
+2023-07-14 14:51:03.079916 [hotstuff info] fetched: 0
+2023-07-14 14:51:03.079919 [hotstuff info] delivered: 0
+2023-07-14 14:51:03.079922 [hotstuff info] decided: 0
+2023-07-14 14:51:03.079925 [hotstuff info] gened: 0
+2023-07-14 14:51:03.079928 [hotstuff info] avg. parent_size: 0.000
+2023-07-14 14:51:03.079932 [hotstuff info] delivery time: 0.000 avg, 0.000 min, 0.000 max
+2023-07-14 14:51:03.079937 [hotstuff info] --- replica msg. (10s) ---
+2023-07-14 14:51:03.080021 [hotstuff info] 542865a568: 2(2), 2(2), 0
+2023-07-14 14:51:03.080105 [hotstuff info] c261250345: 2(2), 2(2), 0
+2023-07-14 14:51:03.080166 [hotstuff info] 065b010aed: 1(1), 1(1), 0
+2023-07-14 14:51:03.080192 [hotstuff info] sent: 5
+2023-07-14 14:51:03.080198 [hotstuff info] recv: 5
+2023-07-14 14:51:03.080201 [hotstuff info] --- replica msg. total ---
+2023-07-14 14:51:03.080204 [hotstuff info] sent: 124
+2023-07-14 14:51:03.080207 [hotstuff info] recv: 124
+2023-07-14 14:51:03.080212 [hotstuff info] ====== end stats ======
+2023-07-14 14:51:03.080218 [hotstuff info] --- client msg. (10s) ---
+2023-07-14 14:51:03.080222 [hotstuff info] --- end client msg. ---
+2023-07-14 14:51:13.082748 [hotstuff info] ===== begin stats =====
+2023-07-14 14:51:13.082794 [hotstuff info] -------- queues -------
+2023-07-14 14:51:13.082815 [hotstuff info] blk_fetch_waiting: 0
+2023-07-14 14:51:13.082820 [hotstuff info] blk_delivery_waiting: 0
+2023-07-14 14:51:13.082823 [hotstuff info] decision_waiting: 0
+2023-07-14 14:51:13.082826 [hotstuff info] -------- misc ---------
+2023-07-14 14:51:13.082829 [hotstuff info] fetched: 0
+2023-07-14 14:51:13.082832 [hotstuff info] delivered: 104
+2023-07-14 14:51:13.082836 [hotstuff info] cmd_cache: 0
+2023-07-14 14:51:13.082839 [hotstuff info] blk_cache: 105
+2023-07-14 14:51:13.082842 [hotstuff info] ------ misc (10s) -----
+2023-07-14 14:51:13.082846 [hotstuff info] fetched: 0
+2023-07-14 14:51:13.082849 [hotstuff info] delivered: 0
+2023-07-14 14:51:13.082852 [hotstuff info] decided: 0
+2023-07-14 14:51:13.082855 [hotstuff info] gened: 0
+2023-07-14 14:51:13.082858 [hotstuff info] avg. parent_size: 0.000
+2023-07-14 14:51:13.082863 [hotstuff info] delivery time: 0.000 avg, 0.000 min, 0.000 max
+2023-07-14 14:51:13.082867 [hotstuff info] --- replica msg. (10s) ---
+2023-07-14 14:51:13.083029 [hotstuff info] 542865a568: 0(0), 0(0), 0
+2023-07-14 14:51:13.083176 [hotstuff info] c261250345: 0(0), 0(0), 0
+2023-07-14 14:51:13.083301 [hotstuff info] 065b010aed: 1(1), 1(1), 0
+2023-07-14 14:51:13.083338 [hotstuff info] sent: 1
+2023-07-14 14:51:13.083345 [hotstuff info] recv: 1
+2023-07-14 14:51:13.083348 [hotstuff info] --- replica msg. total ---
+2023-07-14 14:51:13.083351 [hotstuff info] sent: 125
+2023-07-14 14:51:13.083355 [hotstuff info] recv: 125
+2023-07-14 14:51:13.083358 [hotstuff info] ====== end stats ======
+2023-07-14 14:51:13.083361 [hotstuff info] --- client msg. (10s) ---
+2023-07-14 14:51:13.083364 [hotstuff info] --- end client msg. ---
+2023-07-14 14:51:23.084536 [hotstuff info] ===== begin stats =====
+2023-07-14 14:51:23.084578 [hotstuff info] -------- queues -------
+2023-07-14 14:51:23.084585 [hotstuff info] blk_fetch_waiting: 0
+2023-07-14 14:51:23.084589 [hotstuff info] blk_delivery_waiting: 0
+2023-07-14 14:51:23.084593 [hotstuff info] decision_waiting: 0
+2023-07-14 14:51:23.084596 [hotstuff info] -------- misc ---------
+2023-07-14 14:51:23.084599 [hotstuff info] fetched: 0
+2023-07-14 14:51:23.084602 [hotstuff info] delivered: 104
+2023-07-14 14:51:23.084605 [hotstuff info] cmd_cache: 0
+2023-07-14 14:51:23.084608 [hotstuff info] blk_cache: 105
+2023-07-14 14:51:23.084612 [hotstuff info] ------ misc (10s) -----
+2023-07-14 14:51:23.084615 [hotstuff info] fetched: 0
+2023-07-14 14:51:23.084618 [hotstuff info] delivered: 0
+2023-07-14 14:51:23.084621 [hotstuff info] decided: 0
+2023-07-14 14:51:23.084624 [hotstuff info] gened: 0
+2023-07-14 14:51:23.084628 [hotstuff info] avg. parent_size: 0.000
+2023-07-14 14:51:23.084632 [hotstuff info] delivery time: 0.000 avg, 0.000 min, 0.000 max
+2023-07-14 14:51:23.084637 [hotstuff info] --- replica msg. (10s) ---
+2023-07-14 14:51:23.084722 [hotstuff info] 542865a568: 0(0), 0(0), 0
+2023-07-14 14:51:23.084802 [hotstuff info] c261250345: 0(0), 0(0), 0
+2023-07-14 14:51:23.084894 [hotstuff info] 065b010aed: 0(0), 0(0), 0
+2023-07-14 14:51:23.084917 [hotstuff info] sent: 0
+2023-07-14 14:51:23.084924 [hotstuff info] recv: 0
+2023-07-14 14:51:23.084927 [hotstuff info] --- replica msg. total ---
+2023-07-14 14:51:23.084931 [hotstuff info] sent: 125
+2023-07-14 14:51:23.084934 [hotstuff info] recv: 125
+2023-07-14 14:51:23.084938 [hotstuff info] ====== end stats ======
+2023-07-14 14:51:23.084941 [hotstuff info] --- client msg. (10s) ---
+2023-07-14 14:51:23.084944 [hotstuff info] --- end client msg. ---
+2023-07-14 14:51:33.086074 [hotstuff info] ===== begin stats =====
+2023-07-14 14:51:33.086149 [hotstuff info] -------- queues -------
+2023-07-14 14:51:33.086159 [hotstuff info] blk_fetch_waiting: 0
+2023-07-14 14:51:33.086164 [hotstuff info] blk_delivery_waiting: 0
+2023-07-14 14:51:33.086167 [hotstuff info] decision_waiting: 0
+2023-07-14 14:51:33.086171 [hotstuff info] -------- misc ---------
+2023-07-14 14:51:33.086174 [hotstuff info] fetched: 0
+2023-07-14 14:51:33.086178 [hotstuff info] delivered: 104
+2023-07-14 14:51:33.086181 [hotstuff info] cmd_cache: 0
+2023-07-14 14:51:33.086185 [hotstuff info] blk_cache: 105
+2023-07-14 14:51:33.086208 [hotstuff info] ------ misc (10s) -----
+2023-07-14 14:51:33.086211 [hotstuff info] fetched: 0
+2023-07-14 14:51:33.086215 [hotstuff info] delivered: 0
+2023-07-14 14:51:33.086218 [hotstuff info] decided: 0
+2023-07-14 14:51:33.086221 [hotstuff info] gened: 0
+2023-07-14 14:51:33.086224 [hotstuff info] avg. parent_size: 0.000
+2023-07-14 14:51:33.086228 [hotstuff info] delivery time: 0.000 avg, 0.000 min, 0.000 max
+2023-07-14 14:51:33.086233 [hotstuff info] --- replica msg. (10s) ---
+2023-07-14 14:51:33.086326 [hotstuff info] 542865a568: 0(0), 0(0), 0
+2023-07-14 14:51:33.086502 [hotstuff info] c261250345: 0(0), 0(0), 0
+2023-07-14 14:51:33.086634 [hotstuff info] 065b010aed: 0(0), 0(0), 0
+2023-07-14 14:51:33.086672 [hotstuff info] sent: 0
+2023-07-14 14:51:33.086681 [hotstuff info] recv: 0
+2023-07-14 14:51:33.086685 [hotstuff info] --- replica msg. total ---
+2023-07-14 14:51:33.086688 [hotstuff info] sent: 125
+2023-07-14 14:51:33.086691 [hotstuff info] recv: 125
+2023-07-14 14:51:33.086695 [hotstuff info] ====== end stats ======
+2023-07-14 14:51:33.086698 [hotstuff info] --- client msg. (10s) ---
+2023-07-14 14:51:33.086701 [hotstuff info] --- end client msg. ---
+2023-07-14 14:51:33.233492 [net info] 6540a0fea6: ping from <Conn fd=95 addr=<NetAddr 127.0.0.1:10002> mode=active>
+2023-07-14 14:51:34.462974 [net info] 6540a0fea6: ping from <Conn fd=93 addr=<NetAddr 127.0.0.1:10001> mode=active>
+2023-07-14 14:51:41.783793 [net info] 6540a0fea6: ping from <Conn fd=39 addr=<NetAddr 127.0.0.1:38746> mode=passive>
+2023-07-14 14:51:43.087150 [hotstuff info] ===== begin stats =====
+2023-07-14 14:51:43.087199 [hotstuff info] -------- queues -------
+2023-07-14 14:51:43.087207 [hotstuff info] blk_fetch_waiting: 0
+2023-07-14 14:51:43.087210 [hotstuff info] blk_delivery_waiting: 0
+2023-07-14 14:51:43.087214 [hotstuff info] decision_waiting: 0
+2023-07-14 14:51:43.087217 [hotstuff info] -------- misc ---------
+2023-07-14 14:51:43.087220 [hotstuff info] fetched: 0
+2023-07-14 14:51:43.087223 [hotstuff info] delivered: 104
+2023-07-14 14:51:43.087226 [hotstuff info] cmd_cache: 0
+2023-07-14 14:51:43.087229 [hotstuff info] blk_cache: 105
+2023-07-14 14:51:43.087233 [hotstuff info] ------ misc (10s) -----
+2023-07-14 14:51:43.087235 [hotstuff info] fetched: 0
+2023-07-14 14:51:43.087238 [hotstuff info] delivered: 0
+2023-07-14 14:51:43.087242 [hotstuff info] decided: 0
+2023-07-14 14:51:43.087245 [hotstuff info] gened: 0
+2023-07-14 14:51:43.087248 [hotstuff info] avg. parent_size: 0.000
+2023-07-14 14:51:43.087253 [hotstuff info] delivery time: 0.000 avg, 0.000 min, 0.000 max
+2023-07-14 14:51:43.087257 [hotstuff info] --- replica msg. (10s) ---
+2023-07-14 14:51:43.087402 [hotstuff info] 542865a568: 1(1), 1(1), 0
+2023-07-14 14:51:43.087492 [hotstuff info] c261250345: 1(1), 1(1), 0
+2023-07-14 14:51:43.087613 [hotstuff info] 065b010aed: 1(1), 1(1), 0
+2023-07-14 14:51:43.087657 [hotstuff info] sent: 3
+2023-07-14 14:51:43.087665 [hotstuff info] recv: 3
+2023-07-14 14:51:43.087670 [hotstuff info] --- replica msg. total ---
+2023-07-14 14:51:43.087673 [hotstuff info] sent: 128
+2023-07-14 14:51:43.087677 [hotstuff info] recv: 128
+2023-07-14 14:51:43.087680 [hotstuff info] ====== end stats ======
+2023-07-14 14:51:43.087684 [hotstuff info] --- client msg. (10s) ---
+2023-07-14 14:51:43.087687 [hotstuff info] --- end client msg. ---
+2023-07-14 14:51:53.094745 [hotstuff info] ===== begin stats =====
+2023-07-14 14:51:53.094812 [hotstuff info] -------- queues -------
+2023-07-14 14:51:53.094821 [hotstuff info] blk_fetch_waiting: 0
+2023-07-14 14:51:53.094826 [hotstuff info] blk_delivery_waiting: 0
+2023-07-14 14:51:53.094829 [hotstuff info] decision_waiting: 0
+2023-07-14 14:51:53.094832 [hotstuff info] -------- misc ---------
+2023-07-14 14:51:53.094836 [hotstuff info] fetched: 0
+2023-07-14 14:51:53.094839 [hotstuff info] delivered: 104
+2023-07-14 14:51:53.094842 [hotstuff info] cmd_cache: 0
+2023-07-14 14:51:53.094845 [hotstuff info] blk_cache: 105
+2023-07-14 14:51:53.094848 [hotstuff info] ------ misc (10s) -----
+2023-07-14 14:51:53.094873 [hotstuff info] fetched: 0
+2023-07-14 14:51:53.094876 [hotstuff info] delivered: 0
+2023-07-14 14:51:53.094879 [hotstuff info] decided: 0
+2023-07-14 14:51:53.094883 [hotstuff info] gened: 0
+2023-07-14 14:51:53.094886 [hotstuff info] avg. parent_size: 0.000
+2023-07-14 14:51:53.094891 [hotstuff info] delivery time: 0.000 avg, 0.000 min, 0.000 max
+2023-07-14 14:51:53.094896 [hotstuff info] --- replica msg. (10s) ---
+2023-07-14 14:51:53.095034 [hotstuff info] 542865a568: 1(1), 1(1), 0
+2023-07-14 14:51:53.095146 [hotstuff info] c261250345: 1(1), 1(1), 0
+2023-07-14 14:51:53.095267 [hotstuff info] 065b010aed: 1(1), 1(1), 0
+2023-07-14 14:51:53.095306 [hotstuff info] sent: 3
+2023-07-14 14:51:53.095314 [hotstuff info] recv: 3
+2023-07-14 14:51:53.095319 [hotstuff info] --- replica msg. total ---
+2023-07-14 14:51:53.095322 [hotstuff info] sent: 131
+2023-07-14 14:51:53.095326 [hotstuff info] recv: 131
+2023-07-14 14:51:53.095329 [hotstuff info] ====== end stats ======
+2023-07-14 14:51:53.095332 [hotstuff info] --- client msg. (10s) ---
+2023-07-14 14:51:53.095336 [hotstuff info] --- end client msg. ---
+2023-07-14 14:52:03.103615 [hotstuff info] ===== begin stats =====
+2023-07-14 14:52:03.103666 [hotstuff info] -------- queues -------
+2023-07-14 14:52:03.103674 [hotstuff info] blk_fetch_waiting: 0
+2023-07-14 14:52:03.103678 [hotstuff info] blk_delivery_waiting: 0
+2023-07-14 14:52:03.103682 [hotstuff info] decision_waiting: 0
+2023-07-14 14:52:03.103685 [hotstuff info] -------- misc ---------
+2023-07-14 14:52:03.103688 [hotstuff info] fetched: 0
+2023-07-14 14:52:03.103692 [hotstuff info] delivered: 104
+2023-07-14 14:52:03.103695 [hotstuff info] cmd_cache: 0
+2023-07-14 14:52:03.103698 [hotstuff info] blk_cache: 105
+2023-07-14 14:52:03.103702 [hotstuff info] ------ misc (10s) -----
+2023-07-14 14:52:03.103705 [hotstuff info] fetched: 0
+2023-07-14 14:52:03.103708 [hotstuff info] delivered: 0
+2023-07-14 14:52:03.103711 [hotstuff info] decided: 0
+2023-07-14 14:52:03.103714 [hotstuff info] gened: 0
+2023-07-14 14:52:03.103718 [hotstuff info] avg. parent_size: 0.000
+2023-07-14 14:52:03.103722 [hotstuff info] delivery time: 0.000 avg, 0.000 min, 0.000 max
+2023-07-14 14:52:03.103727 [hotstuff info] --- replica msg. (10s) ---
+2023-07-14 14:52:03.103819 [hotstuff info] 542865a568: 0(0), 0(0), 0
+2023-07-14 14:52:03.103941 [hotstuff info] c261250345: 0(0), 0(0), 0
+2023-07-14 14:52:03.104050 [hotstuff info] 065b010aed: 0(0), 0(0), 0
+2023-07-14 14:52:03.104076 [hotstuff info] sent: 0
+2023-07-14 14:52:03.104084 [hotstuff info] recv: 0
+2023-07-14 14:52:03.104088 [hotstuff info] --- replica msg. total ---
+2023-07-14 14:52:03.104091 [hotstuff info] sent: 131
+2023-07-14 14:52:03.104095 [hotstuff info] recv: 131
+2023-07-14 14:52:03.104098 [hotstuff info] ====== end stats ======
+2023-07-14 14:52:03.104101 [hotstuff info] --- client msg. (10s) ---
+2023-07-14 14:52:03.104105 [hotstuff info] --- end client msg. ---
+2023-07-14 14:52:06.590451 [net info] 6540a0fea6: ping from <Conn fd=93 addr=<NetAddr 127.0.0.1:10001> mode=active>
+2023-07-14 14:52:12.778017 [net info] 6540a0fea6: ping from <Conn fd=95 addr=<NetAddr 127.0.0.1:10002> mode=active>
+2023-07-14 14:52:13.104393 [hotstuff info] ===== begin stats =====
+2023-07-14 14:52:13.104430 [hotstuff info] -------- queues -------
+2023-07-14 14:52:13.104435 [hotstuff info] blk_fetch_waiting: 0
+2023-07-14 14:52:13.104439 [hotstuff info] blk_delivery_waiting: 0
+2023-07-14 14:52:13.104441 [hotstuff info] decision_waiting: 0
+2023-07-14 14:52:13.104443 [hotstuff info] -------- misc ---------
+2023-07-14 14:52:13.104446 [hotstuff info] fetched: 0
+2023-07-14 14:52:13.104448 [hotstuff info] delivered: 104
+2023-07-14 14:52:13.104451 [hotstuff info] cmd_cache: 0
+2023-07-14 14:52:13.104454 [hotstuff info] blk_cache: 105
+2023-07-14 14:52:13.104456 [hotstuff info] ------ misc (10s) -----
+2023-07-14 14:52:13.104459 [hotstuff info] fetched: 0
+2023-07-14 14:52:13.104461 [hotstuff info] delivered: 0
+2023-07-14 14:52:13.104463 [hotstuff info] decided: 0
+2023-07-14 14:52:13.104465 [hotstuff info] gened: 0
+2023-07-14 14:52:13.104467 [hotstuff info] avg. parent_size: 0.000
+2023-07-14 14:52:13.104477 [hotstuff info] delivery time: 0.000 avg, 0.000 min, 0.000 max
+2023-07-14 14:52:13.104481 [hotstuff info] --- replica msg. (10s) ---
+2023-07-14 14:52:13.104555 [hotstuff info] 542865a568: 0(0), 0(0), 0
+2023-07-14 14:52:13.104621 [hotstuff info] c261250345: 1(1), 1(1), 0
+2023-07-14 14:52:13.104695 [hotstuff info] 065b010aed: 1(1), 1(1), 0
+2023-07-14 14:52:13.104718 [hotstuff info] sent: 2
+2023-07-14 14:52:13.104724 [hotstuff info] recv: 2
+2023-07-14 14:52:13.104727 [hotstuff info] --- replica msg. total ---
+2023-07-14 14:52:13.104730 [hotstuff info] sent: 133
+2023-07-14 14:52:13.104734 [hotstuff info] recv: 133
+2023-07-14 14:52:13.104737 [hotstuff info] ====== end stats ======
+2023-07-14 14:52:13.104741 [hotstuff info] --- client msg. (10s) ---
+2023-07-14 14:52:13.104744 [hotstuff info] --- end client msg. ---
+2023-07-14 14:52:13.909476 [net info] 6540a0fea6: ping from <Conn fd=39 addr=<NetAddr 127.0.0.1:38746> mode=passive>
+2023-07-14 14:52:23.111656 [hotstuff info] ===== begin stats =====
+2023-07-14 14:52:23.111702 [hotstuff info] -------- queues -------
+2023-07-14 14:52:23.111710 [hotstuff info] blk_fetch_waiting: 0
+2023-07-14 14:52:23.111715 [hotstuff info] blk_delivery_waiting: 0
+2023-07-14 14:52:23.111718 [hotstuff info] decision_waiting: 0
+2023-07-14 14:52:23.111721 [hotstuff info] -------- misc ---------
+2023-07-14 14:52:23.111725 [hotstuff info] fetched: 0
+2023-07-14 14:52:23.111728 [hotstuff info] delivered: 104
+2023-07-14 14:52:23.111731 [hotstuff info] cmd_cache: 0
+2023-07-14 14:52:23.111734 [hotstuff info] blk_cache: 105
+2023-07-14 14:52:23.111737 [hotstuff info] ------ misc (10s) -----
+2023-07-14 14:52:23.111755 [hotstuff info] fetched: 0
+2023-07-14 14:52:23.111759 [hotstuff info] delivered: 0
+2023-07-14 14:52:23.111763 [hotstuff info] decided: 0
+2023-07-14 14:52:23.111766 [hotstuff info] gened: 0
+2023-07-14 14:52:23.111769 [hotstuff info] avg. parent_size: 0.000
+2023-07-14 14:52:23.111774 [hotstuff info] delivery time: 0.000 avg, 0.000 min, 0.000 max
+2023-07-14 14:52:23.111778 [hotstuff info] --- replica msg. (10s) ---
+2023-07-14 14:52:23.111915 [hotstuff info] 542865a568: 1(1), 1(1), 0
+2023-07-14 14:52:23.112043 [hotstuff info] c261250345: 1(1), 1(1), 0
+2023-07-14 14:52:23.112176 [hotstuff info] 065b010aed: 0(0), 0(0), 0
+2023-07-14 14:52:23.112217 [hotstuff info] sent: 2
+2023-07-14 14:52:23.112224 [hotstuff info] recv: 2
+2023-07-14 14:52:23.112228 [hotstuff info] --- replica msg. total ---
+2023-07-14 14:52:23.112232 [hotstuff info] sent: 135
+2023-07-14 14:52:23.112235 [hotstuff info] recv: 135
+2023-07-14 14:52:23.112238 [hotstuff info] ====== end stats ======
+2023-07-14 14:52:23.112242 [hotstuff info] --- client msg. (10s) ---
+2023-07-14 14:52:23.112245 [hotstuff info] --- end client msg. ---
+2023-07-14 14:52:33.117803 [hotstuff info] ===== begin stats =====
+2023-07-14 14:52:33.117852 [hotstuff info] -------- queues -------
+2023-07-14 14:52:33.117860 [hotstuff info] blk_fetch_waiting: 0
+2023-07-14 14:52:33.117865 [hotstuff info] blk_delivery_waiting: 0
+2023-07-14 14:52:33.117868 [hotstuff info] decision_waiting: 0
+2023-07-14 14:52:33.117871 [hotstuff info] -------- misc ---------
+2023-07-14 14:52:33.117874 [hotstuff info] fetched: 0
+2023-07-14 14:52:33.117878 [hotstuff info] delivered: 104
+2023-07-14 14:52:33.117881 [hotstuff info] cmd_cache: 0
+2023-07-14 14:52:33.117884 [hotstuff info] blk_cache: 105
+2023-07-14 14:52:33.117887 [hotstuff info] ------ misc (10s) -----
+2023-07-14 14:52:33.117891 [hotstuff info] fetched: 0
+2023-07-14 14:52:33.117894 [hotstuff info] delivered: 0
+2023-07-14 14:52:33.117897 [hotstuff info] decided: 0
+2023-07-14 14:52:33.117900 [hotstuff info] gened: 0
+2023-07-14 14:52:33.117903 [hotstuff info] avg. parent_size: 0.000
+2023-07-14 14:52:33.117908 [hotstuff info] delivery time: 0.000 avg, 0.000 min, 0.000 max
+2023-07-14 14:52:33.117912 [hotstuff info] --- replica msg. (10s) ---
+2023-07-14 14:52:33.118003 [hotstuff info] 542865a568: 1(1), 1(1), 0
+2023-07-14 14:52:33.118123 [hotstuff info] c261250345: 0(0), 0(0), 0
+2023-07-14 14:52:33.118253 [hotstuff info] 065b010aed: 1(1), 1(1), 0
+2023-07-14 14:52:33.118279 [hotstuff info] sent: 2
+2023-07-14 14:52:33.118286 [hotstuff info] recv: 2
+2023-07-14 14:52:33.118290 [hotstuff info] --- replica msg. total ---
+2023-07-14 14:52:33.118294 [hotstuff info] sent: 137
+2023-07-14 14:52:33.118297 [hotstuff info] recv: 137
+2023-07-14 14:52:33.118300 [hotstuff info] ====== end stats ======
+2023-07-14 14:52:33.118303 [hotstuff info] --- client msg. (10s) ---
+2023-07-14 14:52:33.118307 [hotstuff info] --- end client msg. ---
+2023-07-14 14:52:40.240206 [net info] 6540a0fea6: ping from <Conn fd=93 addr=<NetAddr 127.0.0.1:10001> mode=active>
+2023-07-14 14:52:43.121155 [hotstuff info] ===== begin stats =====
+2023-07-14 14:52:43.121207 [hotstuff info] -------- queues -------
+2023-07-14 14:52:43.121216 [hotstuff info] blk_fetch_waiting: 0
+2023-07-14 14:52:43.121221 [hotstuff info] blk_delivery_waiting: 0
+2023-07-14 14:52:43.121224 [hotstuff info] decision_waiting: 0
+2023-07-14 14:52:43.121228 [hotstuff info] -------- misc ---------
+2023-07-14 14:52:43.121231 [hotstuff info] fetched: 0
+2023-07-14 14:52:43.121234 [hotstuff info] delivered: 104
+2023-07-14 14:52:43.121238 [hotstuff info] cmd_cache: 0
+2023-07-14 14:52:43.121241 [hotstuff info] blk_cache: 105
+2023-07-14 14:52:43.121244 [hotstuff info] ------ misc (10s) -----
+2023-07-14 14:52:43.121248 [hotstuff info] fetched: 0
+2023-07-14 14:52:43.121251 [hotstuff info] delivered: 0
+2023-07-14 14:52:43.121255 [hotstuff info] decided: 0
+2023-07-14 14:52:43.121258 [hotstuff info] gened: 0
+2023-07-14 14:52:43.121261 [hotstuff info] avg. parent_size: 0.000
+2023-07-14 14:52:43.121266 [hotstuff info] delivery time: 0.000 avg, 0.000 min, 0.000 max
+2023-07-14 14:52:43.121271 [hotstuff info] --- replica msg. (10s) ---
+2023-07-14 14:52:43.121396 [hotstuff info] 542865a568: 0(0), 0(0), 0
+2023-07-14 14:52:43.121567 [hotstuff info] c261250345: 1(1), 1(1), 0
+2023-07-14 14:52:43.121702 [hotstuff info] 065b010aed: 0(0), 0(0), 0
+2023-07-14 14:52:43.121750 [hotstuff info] sent: 1
+2023-07-14 14:52:43.121759 [hotstuff info] recv: 1
+2023-07-14 14:52:43.121763 [hotstuff info] --- replica msg. total ---
+2023-07-14 14:52:43.121766 [hotstuff info] sent: 138
+2023-07-14 14:52:43.121770 [hotstuff info] recv: 138
+2023-07-14 14:52:43.121773 [hotstuff info] ====== end stats ======
+2023-07-14 14:52:43.121777 [hotstuff info] --- client msg. (10s) ---
+2023-07-14 14:52:43.121780 [hotstuff info] --- end client msg. ---
+2023-07-14 14:52:44.904979 [net info] 6540a0fea6: ping from <Conn fd=95 addr=<NetAddr 127.0.0.1:10002> mode=active>
+2023-07-14 14:52:47.557074 [net info] 6540a0fea6: ping from <Conn fd=39 addr=<NetAddr 127.0.0.1:38746> mode=passive>
+2023-07-14 14:52:53.124759 [hotstuff info] ===== begin stats =====
+2023-07-14 14:52:53.124811 [hotstuff info] -------- queues -------
+2023-07-14 14:52:53.124820 [hotstuff info] blk_fetch_waiting: 0
+2023-07-14 14:52:53.124825 [hotstuff info] blk_delivery_waiting: 0
+2023-07-14 14:52:53.124829 [hotstuff info] decision_waiting: 0
+2023-07-14 14:52:53.124832 [hotstuff info] -------- misc ---------
+2023-07-14 14:52:53.124836 [hotstuff info] fetched: 0
+2023-07-14 14:52:53.124840 [hotstuff info] delivered: 104
+2023-07-14 14:52:53.124843 [hotstuff info] cmd_cache: 0
+2023-07-14 14:52:53.124847 [hotstuff info] blk_cache: 105
+2023-07-14 14:52:53.124850 [hotstuff info] ------ misc (10s) -----
+2023-07-14 14:52:53.124854 [hotstuff info] fetched: 0
+2023-07-14 14:52:53.124857 [hotstuff info] delivered: 0
+2023-07-14 14:52:53.124861 [hotstuff info] decided: 0
+2023-07-14 14:52:53.124864 [hotstuff info] gened: 0
+2023-07-14 14:52:53.124868 [hotstuff info] avg. parent_size: 0.000
+2023-07-14 14:52:53.124872 [hotstuff info] delivery time: 0.000 avg, 0.000 min, 0.000 max
+2023-07-14 14:52:53.124877 [hotstuff info] --- replica msg. (10s) ---
+2023-07-14 14:52:53.124962 [hotstuff info] 542865a568: 1(1), 1(1), 0
+2023-07-14 14:52:53.125091 [hotstuff info] c261250345: 1(1), 1(1), 0
+2023-07-14 14:52:53.125190 [hotstuff info] 065b010aed: 1(1), 1(1), 0
+2023-07-14 14:52:53.125226 [hotstuff info] sent: 3
+2023-07-14 14:52:53.125241 [hotstuff info] recv: 3
+2023-07-14 14:52:53.125245 [hotstuff info] --- replica msg. total ---
+2023-07-14 14:52:53.125248 [hotstuff info] sent: 141
+2023-07-14 14:52:53.125252 [hotstuff info] recv: 141
+2023-07-14 14:52:53.125255 [hotstuff info] ====== end stats ======
+2023-07-14 14:52:53.125258 [hotstuff info] --- client msg. (10s) ---
+2023-07-14 14:52:53.125261 [hotstuff info] --- end client msg. ---
+2023-07-14 14:53:03.127839 [hotstuff info] ===== begin stats =====
+2023-07-14 14:53:03.127870 [hotstuff info] -------- queues -------
+2023-07-14 14:53:03.127875 [hotstuff info] blk_fetch_waiting: 0
+2023-07-14 14:53:03.127878 [hotstuff info] blk_delivery_waiting: 0
+2023-07-14 14:53:03.127880 [hotstuff info] decision_waiting: 0
+2023-07-14 14:53:03.127882 [hotstuff info] -------- misc ---------
+2023-07-14 14:53:03.127884 [hotstuff info] fetched: 0
+2023-07-14 14:53:03.127887 [hotstuff info] delivered: 104
+2023-07-14 14:53:03.127889 [hotstuff info] cmd_cache: 0
+2023-07-14 14:53:03.127891 [hotstuff info] blk_cache: 105
+2023-07-14 14:53:03.127893 [hotstuff info] ------ misc (10s) -----
+2023-07-14 14:53:03.127895 [hotstuff info] fetched: 0
+2023-07-14 14:53:03.127897 [hotstuff info] delivered: 0
+2023-07-14 14:53:03.127899 [hotstuff info] decided: 0
+2023-07-14 14:53:03.127901 [hotstuff info] gened: 0
+2023-07-14 14:53:03.127904 [hotstuff info] avg. parent_size: 0.000
+2023-07-14 14:53:03.127906 [hotstuff info] delivery time: 0.000 avg, 0.000 min, 0.000 max
+2023-07-14 14:53:03.127910 [hotstuff info] --- replica msg. (10s) ---
+2023-07-14 14:53:03.127987 [hotstuff info] 542865a568: 1(1), 1(1), 0
+2023-07-14 14:53:03.128084 [hotstuff info] c261250345: 0(0), 0(0), 0
+2023-07-14 14:53:03.128156 [hotstuff info] 065b010aed: 1(1), 1(1), 0
+2023-07-14 14:53:03.128193 [hotstuff info] sent: 2
+2023-07-14 14:53:03.128284 [hotstuff info] recv: 2
+2023-07-14 14:53:03.128293 [hotstuff info] --- replica msg. total ---
+2023-07-14 14:53:03.128297 [hotstuff info] sent: 143
+2023-07-14 14:53:03.128300 [hotstuff info] recv: 143
+2023-07-14 14:53:03.128303 [hotstuff info] ====== end stats ======
+2023-07-14 14:53:03.128306 [hotstuff info] --- client msg. (10s) ---
+2023-07-14 14:53:03.128309 [hotstuff info] --- end client msg. ---
+2023-07-14 14:53:12.600045 [net info] 6540a0fea6: ping from <Conn fd=93 addr=<NetAddr 127.0.0.1:10001> mode=active>
+2023-07-14 14:53:13.128593 [hotstuff info] ===== begin stats =====
+2023-07-14 14:53:13.128623 [hotstuff info] -------- queues -------
+2023-07-14 14:53:13.128627 [hotstuff info] blk_fetch_waiting: 0
+2023-07-14 14:53:13.128630 [hotstuff info] blk_delivery_waiting: 0
+2023-07-14 14:53:13.128633 [hotstuff info] decision_waiting: 0
+2023-07-14 14:53:13.128635 [hotstuff info] -------- misc ---------
+2023-07-14 14:53:13.128637 [hotstuff info] fetched: 0
+2023-07-14 14:53:13.128639 [hotstuff info] delivered: 104
+2023-07-14 14:53:13.128641 [hotstuff info] cmd_cache: 0
+2023-07-14 14:53:13.128643 [hotstuff info] blk_cache: 105
+2023-07-14 14:53:13.128645 [hotstuff info] ------ misc (10s) -----
+2023-07-14 14:53:13.128647 [hotstuff info] fetched: 0
+2023-07-14 14:53:13.128649 [hotstuff info] delivered: 0
+2023-07-14 14:53:13.128651 [hotstuff info] decided: 0
+2023-07-14 14:53:13.128653 [hotstuff info] gened: 0
+2023-07-14 14:53:13.128655 [hotstuff info] avg. parent_size: 0.000
+2023-07-14 14:53:13.128658 [hotstuff info] delivery time: 0.000 avg, 0.000 min, 0.000 max
+2023-07-14 14:53:13.128662 [hotstuff info] --- replica msg. (10s) ---
+2023-07-14 14:53:13.128754 [hotstuff info] 542865a568: 0(0), 0(0), 0
+2023-07-14 14:53:13.128841 [hotstuff info] c261250345: 1(1), 1(1), 0
+2023-07-14 14:53:13.128924 [hotstuff info] 065b010aed: 0(0), 0(0), 0
+2023-07-14 14:53:13.128940 [hotstuff info] sent: 1
+2023-07-14 14:53:13.128946 [hotstuff info] recv: 1
+2023-07-14 14:53:13.128950 [hotstuff info] --- replica msg. total ---
+2023-07-14 14:53:13.128953 [hotstuff info] sent: 144
+2023-07-14 14:53:13.128956 [hotstuff info] recv: 144
+2023-07-14 14:53:13.128958 [hotstuff info] ====== end stats ======
+2023-07-14 14:53:13.128960 [hotstuff info] --- client msg. (10s) ---
+2023-07-14 14:53:13.128967 [hotstuff info] --- end client msg. ---
+2023-07-14 14:53:18.554012 [net info] 6540a0fea6: ping from <Conn fd=95 addr=<NetAddr 127.0.0.1:10002> mode=active>
+2023-07-14 14:53:19.914411 [net info] 6540a0fea6: ping from <Conn fd=39 addr=<NetAddr 127.0.0.1:38746> mode=passive>
+2023-07-14 14:53:23.129750 [hotstuff info] ===== begin stats =====
+2023-07-14 14:53:23.129789 [hotstuff info] -------- queues -------
+2023-07-14 14:53:23.129797 [hotstuff info] blk_fetch_waiting: 0
+2023-07-14 14:53:23.129801 [hotstuff info] blk_delivery_waiting: 0
+2023-07-14 14:53:23.129805 [hotstuff info] decision_waiting: 0
+2023-07-14 14:53:23.129808 [hotstuff info] -------- misc ---------
+2023-07-14 14:53:23.129811 [hotstuff info] fetched: 0
+2023-07-14 14:53:23.129815 [hotstuff info] delivered: 104
+2023-07-14 14:53:23.129819 [hotstuff info] cmd_cache: 0
+2023-07-14 14:53:23.129822 [hotstuff info] blk_cache: 105
+2023-07-14 14:53:23.129826 [hotstuff info] ------ misc (10s) -----
+2023-07-14 14:53:23.129829 [hotstuff info] fetched: 0
+2023-07-14 14:53:23.129833 [hotstuff info] delivered: 0
+2023-07-14 14:53:23.129836 [hotstuff info] decided: 0
+2023-07-14 14:53:23.129840 [hotstuff info] gened: 0
+2023-07-14 14:53:23.129843 [hotstuff info] avg. parent_size: 0.000
+2023-07-14 14:53:23.129848 [hotstuff info] delivery time: 0.000 avg, 0.000 min, 0.000 max
+2023-07-14 14:53:23.129853 [hotstuff info] --- replica msg. (10s) ---
+2023-07-14 14:53:23.129979 [hotstuff info] 542865a568: 1(1), 1(1), 0
+2023-07-14 14:53:23.130111 [hotstuff info] c261250345: 0(0), 0(0), 0
+2023-07-14 14:53:23.130233 [hotstuff info] 065b010aed: 1(1), 1(1), 0
+2023-07-14 14:53:23.130257 [hotstuff info] sent: 2
+2023-07-14 14:53:23.130264 [hotstuff info] recv: 2
+2023-07-14 14:53:23.130268 [hotstuff info] --- replica msg. total ---
+2023-07-14 14:53:23.130272 [hotstuff info] sent: 146
+2023-07-14 14:53:23.130276 [hotstuff info] recv: 146
+2023-07-14 14:53:23.130280 [hotstuff info] ====== end stats ======
+2023-07-14 14:53:23.130284 [hotstuff info] --- client msg. (10s) ---
+2023-07-14 14:53:23.130287 [hotstuff info] --- end client msg. ---

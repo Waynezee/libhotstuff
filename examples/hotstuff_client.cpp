@@ -20,6 +20,8 @@
 #include <memory>
 #include <signal.h>
 #include <sys/time.h>
+#include <unistd.h>
+#include <thread>
 
 #include "salticidae/type.h"
 #include "salticidae/netaddr.h"
@@ -90,6 +92,21 @@ bool try_send(bool check = true) {
     return false;
 }
 
+void send_loop(){
+    for(int i = 0; i < max_iter_num; i++){
+        auto cmd = new CommandDummy(cid, cnt++);
+        MsgReqCmd msg(*cmd);
+        for (auto &p: conns) mn->send_msg(msg, p.second);
+#ifndef HOTSTUFF_ENABLE_BENCHMARK
+        HOTSTUFF_LOG_INFO("send new cmd %.10s",
+                            get_hex(cmd->get_hash()).c_str());
+#endif
+        waiting.insert(std::make_pair(
+            cmd->get_hash(), Request(cmd)));
+        usleep(50000); // sleep 50 ms
+    }
+}
+
 void client_resp_cmd_handler(MsgRespCmd &&msg, const Net::conn_t &) {
     auto &fin = msg.fin;
     HOTSTUFF_LOG_DEBUG("got %s", std::string(msg.fin).c_str());
@@ -109,7 +126,7 @@ void client_resp_cmd_handler(MsgRespCmd &&msg, const Net::conn_t &) {
     elapsed.push_back(std::make_pair(tv, et.elapsed_sec));
 #endif
     waiting.erase(it);
-    while (try_send());
+    // while (try_send());
 }
 
 std::pair<std::string, std::string> split_ip_port_cport(const std::string &s) {
@@ -169,7 +186,10 @@ int main(int argc, char **argv) {
     nfaulty = (replicas.size() - 1) / 3;
     HOTSTUFF_LOG_INFO("nfaulty = %zu", nfaulty);
     connect_all();
-    while (try_send());
+    std::thread my_thread(send_loop);
+    my_thread.detach();
+    // while (try_send());
+    // send_loop();
     ec.dispatch();
 
 #ifdef HOTSTUFF_ENABLE_BENCHMARK

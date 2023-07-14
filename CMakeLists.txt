@@ -82,7 +82,7 @@ option(HOTSTUFF_TWO_STEP "use two-step HotStuff (instead of three-step HS)" OFF)
 option(BUILD_EXAMPLES "build examples" ON)
 
 configure_file(src/config.h.in include/hotstuff/config.h @ONLY)
-
+add_definitions(-DHOTSTUFF_CMD_REQSIZE=1000)
 # build examples
 if(BUILD_EXAMPLES)
     add_subdirectory(examples)
